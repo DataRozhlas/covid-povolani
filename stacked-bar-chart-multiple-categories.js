@@ -92,9 +92,8 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
     align: 'right',
     verticalAlign: 'top',
     x: -20,
-    y: 50,
+    y: 70,
     floating: true,
-    reverse: true
 },
   plotOptions: {
       bar: {
