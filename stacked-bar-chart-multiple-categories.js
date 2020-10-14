@@ -91,7 +91,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
   legend: {
     align: 'right',
     verticalAlign: 'top',
-    x: -10,
+    x: -20,
     y: 50,
     floating: true
 },
