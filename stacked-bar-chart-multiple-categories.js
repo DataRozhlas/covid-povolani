@@ -96,8 +96,12 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       enabled: false
   },
   legend: {
-    reversed: true  
-  },
+    align: 'right',
+    verticalAlign: 'top',
+    x: -10,
+    y: 50,
+    floating: true
+},
   plotOptions: {
       bar: {
           dataLabels: {
