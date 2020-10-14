@@ -83,7 +83,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
         //                 '<span class="light-gray-text">jízd za</span>' + '<br>' +
         //                 '<span class="light-gray-text">návěstidla</span>'
         //   } else {
-            return this.value + 'osob'
+            return this.value + ' osob'
         //   }
         } 
       }
@@ -171,7 +171,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       4713,
       16776],
 
-    color: colors['2018']
+    color: colors['2015']
   },
   {
     name: 'vyléčení',
@@ -272,7 +272,8 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       16,
       4],
 
-    color: colors['2020']
+    color: colors['2020'],
+    visible: false
     // color: colors[function() { console.log(this); return '2020' }()]
   },
 ]
