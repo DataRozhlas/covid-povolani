@@ -83,7 +83,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
         //                 '<span class="light-gray-text">jízd za</span>' + '<br>' +
         //                 '<span class="light-gray-text">návěstidla</span>'
         //   } else {
-            return this.value + ' osob'
+            return this.value + ' '
         //   }
         } 
       }
