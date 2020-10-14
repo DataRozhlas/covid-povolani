@@ -58,7 +58,6 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
         'Hasič / Záchranář',
         'Laboratorní pracovník ve zdrav.',
         'Farmaceut, lékárník',
-        'Bezdomovec',
         'Jiné povolání',
         'Nezjištěno'
       ]
