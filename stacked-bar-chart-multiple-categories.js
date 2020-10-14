@@ -7,7 +7,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
   chart: {
       type: 'bar',
       width: chartWidth, 
-      height: 600 // comment out if not necessary
+      height: 900 // comment out if not necessary
   },
   title: {
       text: 'Osoby pozitivní na covid-19 podle zaměstnání', 
@@ -83,7 +83,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
         //                 '<span class="light-gray-text">jízd za</span>' + '<br>' +
         //                 '<span class="light-gray-text">návěstidla</span>'
         //   } else {
-            return this.value + '%'
+            return this.value + 'osob'
         //   }
         } 
       }
