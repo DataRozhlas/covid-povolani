@@ -107,7 +107,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
           pointPadding: 0.1,
           groupPadding: 0.15,
           borderWidth: 0,
-          stacking: 'normal'
+          stacking: 'stacked'
       }
   },
   series: [
