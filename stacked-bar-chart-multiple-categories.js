@@ -221,12 +221,13 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       9050,
       118],
 
-    color: colors['2019']
+    color: colors['2016']
     
   },
   {
     name: 'zemřelí',
-    data :[853,
+    data :[0,
+      853,
       3,
       0,
       3,
