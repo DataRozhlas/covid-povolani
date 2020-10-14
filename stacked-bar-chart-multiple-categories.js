@@ -248,7 +248,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       16,
       4],
 
-    color: colors['2016'],
+    color: #444,
     visible: false
     // color: colors[function() { console.log(this); return '2020' }()]
   },
