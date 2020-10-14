@@ -171,7 +171,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       4713,
       16776],
 
-    color: colors['2015']
+    color: colors['2020']
   },
   {
     name: 'vyléčení',
@@ -221,7 +221,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       9050,
       118],
 
-    color: colors['2016']
+    color: colors['2019']
     
   },
   {
@@ -272,7 +272,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       16,
       4],
 
-    color: colors['2020'],
+    color: colors['2016'],
     visible: false
     // color: colors[function() { console.log(this); return '2020' }()]
   },
