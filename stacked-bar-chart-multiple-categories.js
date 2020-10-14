@@ -7,15 +7,15 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
   chart: {
       type: 'bar',
       width: chartWidth, 
-      height: 900 // comment out if not necessary
+      height: 1100 // comment out if not necessary
   },
   title: {
-      text: 'Osoby pozitivní na covid-19 podle zaměstnání', 
+      text: 'Pozitivní na covid-19 podle zaměstnání', 
       useHTML: true,
   },
   subtitle: {
       useHTML: true,
-      text: 'Data k 10.10.2020' + '<br><span style="color: #fff">.</span>'
+      text: 'Data aktuální k 10.10.2020' + '<br><span style="color: #fff">.</span>'
   },
   credits: {
     href : '',
