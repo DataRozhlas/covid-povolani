@@ -10,7 +10,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       height: 600 // comment out if not necessary
   },
   title: {
-      text: 'Osoby s potvrzenou nákazou COVID-19 v ČR podle zaměstnání', 
+      text: 'Osoby pozitivní na covid-19 podle zaměstnání', 
       useHTML: true,
   },
   subtitle: {
@@ -19,38 +19,38 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
   },
   credits: {
     href : '',
-    text : 'Zdroj: ÚZIS ČR, ISIN - Informanční systém Infekční nemoci'
+    text : 'Zdroj: ÚZIS, ISIN - Informanční systém Infekční nemoci'
   },
   xAxis: {
       categories: ['Žák, student, učeň', 
         'Starobní důchodce',
-        'Administrativa / kancelář',
+        'Administrativa',
         'Pedagog, školství',
         'Strojírenství, elektro',
         'OSVČ',
         'Zdravotní sestra',
-        'Nepracující / nezaměstnaný',
-        'Management, vedení, řízení',
+        'Nepracující',
+        'Management',
         'Dítě',
         'Jiný zdrav. prac.',
-        'Mateřská / rodičovská dovolená',
+        'Mateřská dovolená',
         'Lékař',
         'Dělnické profese, agenturní prac.',
         'Řemeslník',
         'Jiný potravinář',
-        'Řidič, doprava',
+        'Řidič',
         'Pracovník v IT',
-        'Sociální pracovník / péče o osoby',
-        'Prodavač(ka) / pokladní',
-        'Hornictví, těžba',
+        'Sociální pracovník',
+        'Prodavač(ka)',
+        'Hornictví',
         'Ostatní VŠ',
         'Invalidní důchodce',
         'Pracovník ve službách',
         'Policista / zaměstnanaec MV',
         'Sportovní aktivity',
-        'Skladník, expedice, logistika',
+        'Skladník, logistika',
         'Stavebnictví',
-        'Gastronomie, pohostinství',
+        'Gastronomie',
         'Voják',
         'Divadlo, hudba, tanec',
         'Úklidové služby',
@@ -59,7 +59,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
         'Laboratorní pracovník ve zdrav.',
         'Farmaceut, lékárník',
         'Zemědělství',
-        'Migrující / pendler',
+        'Pendler',
         'Pošta, doručovací služba',
         'Zaměstnanec vězeňské služby',
         'Veterinář, pracujicí se zvířaty',
@@ -89,7 +89,7 @@ Highcharts.chart('vis-stacked-bar-multiple-categories', {
       }
   }, 
   tooltip: {
-    valueSuffix: ' %',
+    valueSuffix: ' osob',
     shared: true
   },
   exporting: {
